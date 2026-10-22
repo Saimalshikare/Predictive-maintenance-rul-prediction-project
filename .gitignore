@@ -1,3 +1,4 @@
+```gitignore
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -8,3 +9,6 @@ __pycache__/
 data/raw/
 data/processed/
 models/*.joblib
+!models/rul_model_v1.joblib
+```
+git add models/rul_model_v1.joblib

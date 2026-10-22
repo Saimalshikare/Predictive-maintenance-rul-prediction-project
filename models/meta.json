@@ -1,0 +1,12 @@
+{
+  "dataset": "FD001",
+  "model": "ExtraTreesRegressor",
+  "window_size": 30,
+  "rul_clip": 125,
+  "n_features": 45,
+  "test_metrics": {
+    "RMSE": 17.866928807189236,
+    "MAE": 13.122389933261186,
+    "NASA": 747.631829011997
+  }
+}
