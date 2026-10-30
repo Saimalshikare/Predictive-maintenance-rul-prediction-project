@@ -1,14 +1,18 @@
 ```gitignore
+# Python cache files
 __pycache__/
 *.pyc
+# Jupyter checkpoints
 .ipynb_checkpoints/
+# Virtual environments
 .venv/
+# Environment variables and secrets
 .env
+# Pytest cache
 .pytest_cache/
-
+# Raw and processed datasets
 data/raw/
 data/processed/
+# Trained model files
 models/*.joblib
-!models/rul_model_v1.joblib
 ```
-git add models/rul_model_v1.joblib

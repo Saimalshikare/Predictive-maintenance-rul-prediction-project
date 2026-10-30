@@ -1,11 +1,10 @@
-pandas
 numpy
-matplotlib
-seaborn
+pandas
 scikit-learn
-jupyter
 joblib
-PyYAML
-streamlit
+pyyaml
+matplotlib
+jupyter
 pytest
-
+streamlit
+shap
